@@ -1,2 +1,2 @@
 let X = 2;
-console.log(
+console.log(X);
