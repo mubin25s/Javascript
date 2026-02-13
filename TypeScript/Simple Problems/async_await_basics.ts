@@ -12,7 +12,8 @@ async function start() {
         const user = await simulateDatabaseCall(101);
         console.log("Data Received:", user);
     } catch (error) {
-        console.error("Error fetching data:", erro
+        console.error("Error fetching data:", error);
+
 }
 
 console.log("Program started...");
