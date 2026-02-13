@@ -1,4 +1,4 @@
-// 02 Basic Types
+// Basic Types
 let age: number = 25;
 let isStudent: boolean = true;
 let firstName: string = "Mubin";

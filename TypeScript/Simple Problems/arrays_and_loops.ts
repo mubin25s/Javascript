@@ -1,4 +1,4 @@
-// 05 Arrays and Loops
+// Arrays and Loops
 let fruits: string[] = ["Apple", "Banana", "Cherry"];
 fruits.push("Mango");
 

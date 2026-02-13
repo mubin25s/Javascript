@@ -1,4 +1,4 @@
-// 10 Async / Await and Promises
+// Async / Await and Promises
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function simulateDatabaseCall(id: number): Promise<{ id: number, name: string }> {

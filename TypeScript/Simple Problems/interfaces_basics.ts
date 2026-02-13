@@ -1,4 +1,4 @@
-// 06 Interfaces and Objects
+// Interfaces and Objects
 interface User {
     readonly id: number; // Cannot be changed after initialization
     username: string;

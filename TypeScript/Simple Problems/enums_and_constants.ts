@@ -1,4 +1,4 @@
-// 08 Enums and Type Aliases
+// Enums and Type Aliases
 enum Status {
     Pending,
     Active,

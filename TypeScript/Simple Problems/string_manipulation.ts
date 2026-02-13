@@ -1,4 +1,4 @@
-// 04 String Operations
+// String Operations
 let text: string = "TypeScript is Awesome";
 
 console.log(`Length: ${text.length}`);

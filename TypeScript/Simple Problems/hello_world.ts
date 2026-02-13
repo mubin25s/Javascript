@@ -1,4 +1,4 @@
-// 01 Hello World in TypeScript
+// Hello World in TypeScript
 let message: string = "Hello, TypeScript!";
 console.log(message);
 

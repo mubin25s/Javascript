@@ -1,4 +1,4 @@
-// 07 Functions with Types
+// Functions with Types
 function add(a: number, b: number): number {
     return a + b;
 }

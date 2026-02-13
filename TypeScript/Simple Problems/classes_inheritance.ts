@@ -1,4 +1,4 @@
-// 09 Classes and Inheritance
+// Classes and Inheritance
 class Person {
     protected name: string;
 

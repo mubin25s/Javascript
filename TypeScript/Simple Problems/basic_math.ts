@@ -1,4 +1,4 @@
-// 03 Basic Math Problems
+// Basic Math Problems
 let num1: number = 20;
 let num2: number = 10;
 
