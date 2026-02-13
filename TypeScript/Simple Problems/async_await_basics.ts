@@ -13,7 +13,7 @@ async function start() {
         console.log("Data Received:", user);
     } catch (error) {
         console.error("Error fetching data:", error);
-
+    }
 }
 
 console.log("Program started...");
