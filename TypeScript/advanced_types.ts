@@ -6,7 +6,7 @@ type T1 = IsString<string>;  // "Yes"
 type T2 = IsString<number>;  // "No"
 
 // 2. Mapped Types
-type ReadOnly<T> = {
+type CustomReadOnly<T> = {
     readonly [P in keyof T]: T[P];
 };
 
@@ -15,7 +15,7 @@ interface User {
     name: string;
 }
 
-type ReadOnlyUser = ReadOnly<User>;
+type ReadOnlyUser = CustomReadOnly<User>;
 
 // 3. Template Literal Types
 type World = "world";
