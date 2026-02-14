@@ -21,10 +21,13 @@ console.log(`Box Content: ${box.content}`);
 class GenericNumber<T> {
     zeroValue: T;
     add: (x: T, y: T) => T;
+
+    constructor(zeroValue: T, addFn: (x: T, y: T) => T) {
+        this.zeroValue = zeroValue;
+        this.add = addFn;
+    }
 }
 
-let myGenericNumber = new GenericNumber<number>();
-myGenericNumber.zeroValue = 0;
-myGenericNumber.add = (x, y) => x + y;
+let myGenericNumber = new GenericNumber<number>(0, (x, y) => x + y);
 
 console.log(`Generic Addition: ${myGenericNumber.add(10, 20)}`);
