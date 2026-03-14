@@ -51,3 +51,4 @@ const myColor: ColorKeys = "red";
 console.log(`Selected color: ${myColor} = ${COLORS[myColor]}`);
 
 console.log("Advanced types logic ready.");
+
